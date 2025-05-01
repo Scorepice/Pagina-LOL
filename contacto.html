@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <Header>
+        <h1 class="ColorTitulosPrincipal">
+            Contacto
+            <img src="image/poro.jpg" Alt="" width="10%" height="10%" />
+        </h1>
+    </Header>
+    <nav>
+        Menu
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="campeones.html">Campeones</a></li>
+            <li><a href="mapas.html">Mapas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+
+
+        </ul>
+    </nav>
+    <form class="ColorTitulosPrincipal" action="" method="post">
+        <label for="nombre">Nombre De invocador:</label><br>
+        <input type="text" id="nombre" name="nombre"> <br><br>
+        <label for="email">email De la cuenta:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+        <br>
+        <input type="radio" name="radio" id="radio1" value="opcion1">T1<br>
+        <input type="radio" name="radio" id="radio1" value="opcion1">GenG<br>
+        <input type="radio" name="radio" id="radio1" value="opcion1">Fnatic<br>
+        <input type="radio" name="radio" id="radio1" value="opcion1">Cloud9<br>
+
+        <fieldset>
+            <legend>¿De que region nos sigues?</legend>
+            <select name="region" id="region">
+                <option value="NA">North America (NA)</option>
+                <option value="EUW">Europe West (EUW)</option>
+                <option value="EUNE">Europe Nordic & East (EUNE)</option>
+                <option value="KR">Korea (KR)</option>
+                <option value="JP">Japan (JP)</option>
+                <option value="OCE">Oceania (OCE)</option>
+                <option value="LAN">Latin America North (LAN)</option>
+                <option value="LAS">Latin America South (LAS)</option>
+                <option value="BR">Brazil (BR)</option>
+                <option value="TR">Turkey (TR)</option>
+                <option value="RU">Russia (RU)</option>
+                <option value="SEA">Southeast Asia (SEA)</option>
+                <option value="MENA">Middle East & North Africa (MENA)</option>
+                <option value="VN">Vietnam (VN)</option>
+                <option value="TW">Taiwan (TW)</option>
+                <option value="SG">Singapore (SG)</option>
+                <option value="CN">China (CN)</option>
+            </select>
+        </fieldset>
+        Estoy de acuerdo <input type="checkbox" name="checkbox" id="checkbox"><br><br>
+
+        <Footer></Footer>
+    </form>
+</body>
+
+</html>

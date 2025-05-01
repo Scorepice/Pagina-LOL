@@ -1,0 +1,103 @@
+body {
+    font-family: "Cal Sans", sans-serif;
+    background-color: #091428
+}
+
+
+
+#grieta {
+    color: rgb(0, 136, 255);
+}
+
+#bosque {
+    color: #0B3D0B;
+}
+
+#msi {
+    color: rgba(205, 0, 0, 0.948);
+}
+
+#asesino {
+    color: darkred;
+}
+
+#luchadores {
+    color: goldenrod;
+}
+
+#magos {
+    color: purple;
+}
+
+#tiradores {
+    color: darkblue;
+}
+
+#soportes {
+    color: rgb(64, 150, 178);
+}
+
+#tanques {
+    color: green;
+}
+
+hr {
+    border: 1px solid #463714;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    word-spacing: 210px;
+
+}
+
+.ColorWorlds {
+    color: rgb(17, 107, 216);
+}
+
+.ColorHex {
+    color: #005A82;
+}
+
+.ColorGanador {
+    color: gold;
+}
+
+.Colorfooter {
+    color: #010A13;
+}
+
+.ColorTitulosPrincipal {
+    color: #C89B3C;
+}
+
+.ColorTituloSecundario {
+    color: #C8AA6E;
+}
+
+.Tablas {
+    color: rgb(65, 65, 65);
+}
+
+.ColorLetrasP {
+    color: #A09B8C;
+}
+
+ul {
+    list-style-type: none;
+
+
+}
+
+td {
+    color: #0397AB;
+}
+
+nav {
+    color: #A09B8C;
+    ;
+}
